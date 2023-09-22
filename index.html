@@ -4,32 +4,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Third party modules</title>
     <link rel="stylesheet" href="main.css">
-    <script src="./node_modules/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
     <link
             rel="stylesheet"
-            href="./node_modules/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+            href="./node_modules/@fancyapps/ui/dist/fancybox/fancybox.css"
     />
+    <script defer src="index.js"></script>
 </head>
 <body>
     <div class="container">
         <div id="gallery" class="gallery">
             <div class="gallery-item">
-                <a href="./images/example.jpg">
+                <a href="./images/example.jpg" data-fancybox="gallery">
                     <img class="gallery-image" src="./images/example.jpg" alt="">
                 </a>
             </div>
             <div class="gallery-item">
-                <a href="./images/example_1.jpg">
+                <a href="./images/example_1.jpg" data-fancybox="gallery">
                     <img class="gallery-image" src="./images/example_1.jpg" alt="">
                 </a>
             </div>
             <div class="gallery-item">
-                <a href="./images/example_2.jpg">
+                <a href="./images/example_2.jpg" data-fancybox="gallery">
                     <img class="gallery-image" src="./images/example_2.jpg"  alt="">
                 </a>
             </div>
             <div class="gallery-item">
-                <a href="./images/example_3.jpg">
+                <a href="./images/example_3.jpg" data-fancybox="gallery">
                     <img class="gallery-image" src="./images/example_3.jpg"  alt="">
                 </a>
             </div>
